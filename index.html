@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fast, lightweight multi tools website with image, text, developer, calculator, and security tools." />
+    <title>Fast Multi Tools - 50+ Free Browser Tools</title>
+    <link rel="canonical" href="https://example.com/" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a href="/" class="brand">FastMultiTools</a>
+        <nav class="actions"><a href="#popular">Popular</a><button class="btn" data-theme-toggle aria-label="Theme toggle"></button></nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>50+ Fast, Free Online Tools</h1>
+        <p>SEO-optimized, browser-only tools for images, text, code, security, and calculations.</p>
+        <input id="search" class="search" placeholder="Search tools (e.g., image resizer, JSON formatter)" />
+      </section>
+
+      <section>
+        <h2>Categories</h2>
+        <div id="categories" class="grid categories"></div>
+      </section>
+
+      <section id="popular">
+        <h2>Popular Tools</h2>
+        <div id="popularTools" class="grid tools-grid"></div>
+      </section>
+
+      <section>
+        <h2>All Tools</h2>
+        <div id="toolsGrid" class="grid tools-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">Built with Vite and modern ES modules. No backend. No tracking scripts.</div>
+    </footer>
+    <script type="module" src="/src/pages/home.js"></script>
+  </body>
+</html>
